@@ -23,6 +23,19 @@ p {
   font-size: 2.5rem;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.0rem;
+}
+
+h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.0rem;
+}
+h5 {
+  font-size: 1.5rem;
+}
+
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
@@ -79,4 +92,50 @@ img[src="img/preparacao-pele.jpg"] {
   .column {
     width: 100%;
   }
+}
+
+/* style.css */
+
+header{
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+
+.tutorial {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  width: 100;
+}
+
+.tutorial iframe {
+  width: 560px;
+  height: 315px;
+  border: none;
+}
+
+.caption {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+/* style.css */ 
+.intro-text {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 10;
 }
